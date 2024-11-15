@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "SPTheoChuDe";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+@foreach (var sach in Model)
+{
+    <div id="templatemo_content_right">
+        <div class="templatemo_product_box">
+            <h1>@sach.Tensach</h1>
+            <img alt="@sach.Tensach" src="~/images/@sach.Anhbia" width="100" />
+            <div class="product_info">
+                <p>Ut fringilla enim sed turpis. Sed justo dolor, convallis at.</p>
+                <h3>@sach.Giaban <span>VND</span></h3>
+                <div class="detail_button"><a href="@Url.Action("Details", "BookStore", new { id = sach.Masach })" style="color: yellow">Chi tiết</a></div>
+            </div>
+            <div class="cleaner">&nbsp;</div>
+
+        </div>
+    </div>
+}

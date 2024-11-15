@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<h1>Details</h1>
+
+<img alt="@Model.Tensach" src="~/images/@Model.Anhbia" width="100" />
+<h2>Ten sach: @Model.Tensach</h2>
+<h2>Mo Ta: @Model.Mota</h2>
+<h2>Gia: @Model.Giaban</h2>
+
+<div id="Datmua">
+    <a href="@Url.Action("ThemGioHang", "GioHang", new { @iMasach = @Model.Masach, @strURL = Request.Url.ToString() })" style="text-decoration: none;">
+        <h2 style="color: white; background-color: red; padding: 5px 10px; border-radius: 10px; text-align: center; display: inline-block; transition: 0.3s;">ĐẶT MUA</h2>
+    </a>
+</div>

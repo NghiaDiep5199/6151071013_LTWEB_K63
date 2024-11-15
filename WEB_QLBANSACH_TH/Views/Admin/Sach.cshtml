@@ -1,0 +1,156 @@
+﻿@using WEB_QLBANSACH_TH.Models
+@using PagedList.Mvc;
+@model PagedList.PagedList<WEB_QLBANSACH_TH.Models.SACH>
+
+@{
+    ViewBag.Title = "Sach";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Quan Ly Sach</h2>
+
+<p style="font-size: 15px; padding: 20px">
+    @Html.ActionLink("Thêm sách mới", "Themmoisach")
+</p>
+
+<style>
+    .table {
+        border-collapse: collapse;
+        text-align: left;
+    }
+
+        .table th, .table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .table th {
+            text-align: center;
+            background-color: #9da030;
+            color: #000000;
+        }
+
+        .table tr:hover {
+            background-color: #66723c;
+        }
+
+        .table td:last-child {
+            text-align: center;
+        }
+
+    .action-links a {
+        margin: 0 5px;
+        text-decoration: none;
+        color: #007bff;
+    }
+
+        .action-links a:hover {
+            text-decoration: underline;
+        }
+</style>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Masach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Tensach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Giaban)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Mota)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Anhbia)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Ngaycapnhat)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Soluongton)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MaCD)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().MaNXB)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Masach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tensach)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Giaban)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mota)
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/" + item.Anhbia)"/>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ngaycapnhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Soluongton)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CHUDE.TenChuDe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NHAXUATBAN.TenNXB)
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "Suasach", new { id = item.Masach }) |
+                @Html.ActionLink("Chi Tiết", "Chitietsach", new { id = item.Masach }) |
+                @Html.ActionLink("Xóa", "Xoasach", new { id = item.Masach })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("Sach", new { page = page }))
+</div>
+<style>
+    .MenuTrang {
+        text-align: center;
+    }
+
+        .MenuTrang li {
+            display: inline;
+            margin: 0 5px;
+        }
+
+            .MenuTrang li a {
+                color: #94811c;
+                text-decoration: none;
+                padding: 5px 10px;
+                border: 1px solid #94811c;
+                border-radius: 3px;
+            }
+
+                .MenuTrang li a:hover {
+                    background-color: #94811c;
+                    color: white;
+                }
+
+        .MenuTrang .active a {
+            font-weight: bold;
+            background-color: #94811c;
+            color: white;
+        }
+</style>

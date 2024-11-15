@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Book Store Template</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="~/Content/templatemo_style_all.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        <div id="templatemo_container">
+            <div id="templatemo_menu">
+                <ul>
+                    <li>@Html.ActionLink("Home", "Index", "BookStore", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li><a href="subpage.html">Search</a></li>
+                    <li><a href="subpage.html">Books</a></li>
+                    <li><a href="#">New Releases</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li>
+                        <a href="@Url.Action("GioHang", "GioHang")" style="color: white; font-weight: bold; text-decoration: none;">
+                            @*<img src="~/images/templatemo_cart.jpg" style="width: 20px; height: 20px" />*@
+                            Cart (@ViewBag.Tongsoluong)
+                        </a>
+                    </li>
+                </ul>
+            </div> <!-- end of menu -->
+
+            <div id="templatemo_header">
+                <div id="templatemo_special_offers">
+                    <p>
+                        <span>25%</span> discounts for
+                        purchase over $80
+                    </p>
+                    <a href="subpage.html" style="margin-left: 50px;">Read more...</a>
+                </div>
+
+
+                <div id="templatemo_new_books">
+                    <ul>
+                        <li>Newbook 1</li>
+                        <li>Newbook 2</li>
+                        <li>Newbook 3</li>
+                    </ul>
+                    <a href="subpage.html" style="margin-left: 50px;">Read more...</a>
+                </div>
+            </div> <!-- end of header -->
+
+            <div id="templatemo_content">
+
+                <div id="templatemo_content_left">
+                    <div class="templatemo_content_left_section">
+                        <h1>Chủ Đề</h1>
+                        <ul class="category-list">
+                            <li>@Html.Action("ChuDe", "BookStore")</li>
+
+                        </ul>
+                    </div>
+                    <div class="templatemo_content_left_section">
+                        <h1>Nhà Xuất Bản</h1>
+                        <ul class="category-list">
+                            <li>@Html.Action("NhaXuatBan", "BookStore")</li>
+                        </ul>
+                    </div>
+
+                </div> <!-- end of content left -->
+
+                @RenderBody()
+                <!-- end of content right -->
+
+                <div class="cleaner_with_height">&nbsp;</div>
+            </div> <!-- end of content -->
+
+            <div id="templatemo_footer">
+                @* Tao liên kết các trang *@
+                @*<h2 style="color: #94811c">Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount</h2>
+                <p></p>*@
+                <a href="subpage.html">Home</a> | <a href="subpage.html">Search</a> | <a href="subpage.html">Books</a> | <a href="#">New Releases</a> | <a href="#">FAQs</a> | <a href="#">Contact Us</a><br />
+
+                <!-- Credit: www.templatemo.com -->
+            </div>
+            <!-- end of footer -->
+            <!--  Free CSS Template www.templatemo.com -->
+        </div> <!-- end of container -->
+
+    </div>
+</body>
+</html>

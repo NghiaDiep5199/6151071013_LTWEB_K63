@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|d:\\my project\\vstudio\\6151071013_thltweb\\6151071013_ltweb_k63-master\\web_qlbansach_th\\views\\bookstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\views\\bookstore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|d:\\my project\\vstudio\\6151071013_thltweb\\6151071013_ltweb_k63-master\\web_qlbansach_th\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\web_qlbansach_th\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|d:\\my project\\vstudio\\6151071013_thltweb\\6151071013_ltweb_k63-master\\web_qlbansach_th\\views\\admin\\themmoisach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\views\\admin\\themmoisach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|d:\\my project\\vstudio\\6151071013_thltweb\\6151071013_ltweb_k63-master\\web_qlbansach_th\\views\\admin\\chitietsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\views\\admin\\chitietsach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|d:\\my project\\vstudio\\6151071013_thltweb\\6151071013_ltweb_k63-master\\web_qlbansach_th\\views\\admin\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\views\\admin\\sach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|d:\\my project\\vstudio\\6151071013_thltweb\\6151071013_ltweb_k63-master\\web_qlbansach_th\\views\\admin\\suasach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\views\\admin\\suasach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|d:\\my project\\vstudio\\6151071013_thltweb\\6151071013_ltweb_k63-master\\web_qlbansach_th\\views\\admin\\xoasach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{958CE93E-AB1C-43E6-8FCC-B502ED8213A3}|WEB_QLBANSACH_TH\\WEB_QLBANSACH_TH.csproj|solutionrelative:web_qlbansach_th\\views\\admin\\xoasach.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T09:53:51.617Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sach.cshtml",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Sach.cshtml",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Views\\Admin\\Sach.cshtml",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Sach.cshtml",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Views\\Admin\\Sach.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAG8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T15:45:43.989Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\BookStore\\Index.cshtml",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Views\\BookStore\\Index.cshtml",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\BookStore\\Index.cshtml",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Views\\BookStore\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:14:42.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Suasach.cshtml",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Suasach.cshtml",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Views\\Admin\\Suasach.cshtml",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Suasach.cshtml",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Views\\Admin\\Suasach.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:11:25.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Xoasach.cshtml",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Xoasach.cshtml",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Views\\Admin\\Xoasach.cshtml",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Xoasach.cshtml",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Views\\Admin\\Xoasach.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAEsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T15:56:04.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Chitietsach.cshtml",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Chitietsach.cshtml",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Views\\Admin\\Chitietsach.cshtml",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\Chitietsach.cshtml",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Views\\Admin\\Chitietsach.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T15:44:54.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ThemmoiSach.cshtml",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\ThemmoiSach.cshtml",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Views\\Admin\\ThemmoiSach.cshtml",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Views\\Admin\\ThemmoiSach.cshtml",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Views\\Admin\\ThemmoiSach.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T14:00:46.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "WEB_QLBANSACH_TH\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\My Project\\VStudio\\6151071013_THLTWEB\\6151071013_LTWEB_K63-master\\WEB_QLBANSACH_TH\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "WEB_QLBANSACH_TH\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAowJoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T08:38:58.311Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
